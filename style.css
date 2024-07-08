@@ -16,6 +16,7 @@ body{
   align-items: center;
 }
 
+
 #city-name{
   background: #416EA1;
   color: #FEDD81;
@@ -29,6 +30,20 @@ body{
   width: 600px;
   padding: 6px 12px;
   border-radius: 8px;
+}
+
+#city-name:hover{
+  background: #FEDD81;
+  color: #14232B;
+  padding: 8px 16px;
+  transition: 0.25s;
+}
+
+#city-desc:hover{
+  background: #FEDD81;
+  color: #14232B;
+  padding: 8px 16px;
+  transition: 0.25s;
 }
 
 #activities-title{
@@ -64,11 +79,32 @@ body{
   border-radius: 8px;
   padding: 30px;
 }
+
+.guide:hover{
+  background: #e5edf0;
+  color: #FEDD81;
+  text-shadow: 0px 0px 4px black;
+  border-bottom: 6px solid #14232B;
+  transition: 0.25s;
+}
 .details{
   padding: 0px 20px 0px 30px;
 }
 #profile-img{
   border-radius: 50%;
 }
+
+#profile-img:hover{
+  border: 3px solid #8bd5f0;
+  transition: 0.25s;
+}
+
+.activity-img:hover{
+  border: 3px solid #FEDD81;
+  transform: scale(1.25);
+  transition: 0.25s;
+  margin-bottom: 50px;
+}
+
 
 
