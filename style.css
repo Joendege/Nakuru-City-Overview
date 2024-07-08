@@ -1,0 +1,74 @@
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.main{
+  background: url(images/Nakuru-main.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  height: 600px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#city-name{
+  background: #416EA1;
+  color: #FEDD81;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+#city-desc{
+  background: #14232B;
+  color: #FEDD81;
+  width: 600px;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+#activities-title{
+  background: #e5edf0;
+  margin: 0px;
+  padding: 40px 0px;
+}
+
+.activities{
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0px 80px;
+  background: #e5edf0;
+}
+
+.activity-1, .activity-2, .activity-3{
+  width: 400px;
+}
+
+.activity-img{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.guide{
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  margin: 0px auto 40px;
+  background: #bce3f1;
+  border-bottom: 6px solid #8bd5f0;
+  border-radius: 8px;
+  padding: 30px;
+}
+.details{
+  padding: 0px 20px 0px 30px;
+}
+#profile-img{
+  border-radius: 50%;
+}
+
+
